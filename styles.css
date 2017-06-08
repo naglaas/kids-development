@@ -1,0 +1,111 @@
+body {
+font-family: 'Acme', sans-serif;
+margin:0 auto;
+width:960px;
+}
+
+h1 {
+color:brown;
+}
+
+nav ul {
+list-style-type:none;
+padding:0;
+}
+
+nav li {
+display:inline;
+float:left;
+}
+
+nav a:link, a:visited {
+background-color:green;
+text-decoration:none;
+color:white;
+display:block;
+width:192px;
+text-align:center;
+padding:10px 0px;
+font-size:30px;
+}
+
+nav a:hover {
+background-color: lightgreen;
+}
+
+header {
+background-image:url("images/background.png");
+height:100px;
+margin-bottom:70px;
+}
+
+header h1 {
+color:rgba(256,256,256,.8);
+margin-left:30px;
+margin-top:30px;
+font-size:50px;
+}
+
+#gameHeader {
+	background-image:none;
+	height:100px;
+	margin-bottom:70px;
+}
+
+#gameHeader  h1 {
+color:red;
+margin-left:30px;
+margin-top:40px;
+font-size:50px;
+}
+
+aside img{
+width:400px;
+float:right;
+background-color:green;
+text-align:center;
+font-weight:bold;
+padding:20px;
+margin-left: 20px
+}
+
+article {
+margin-top:100px;
+}
+
+article h2 a:link, article h2 a:visited{
+text-decoration:none;
+color:dodgerblue;
+}
+
+article a:link,article a:visited {
+color:black;
+}
+
+article img {
+float:left;
+margin-right:10px;
+}
+
+article p {
+font-size:25px;
+}
+
+#articles {
+margin-top:150px;
+}
+
+div p {
+color:black;
+font-size: 20px;
+ }
+
+div img {
+float:left;
+margin-right:20px; 
+margin-bottom:20px; 
+}
+div h3 {
+text-decoration: underline;
+color: darkblue;
+}
